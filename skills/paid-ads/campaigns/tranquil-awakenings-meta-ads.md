@@ -63,7 +63,15 @@ Account: Tranquil Awakenings Counseling Center
 │   └── Ad Set 2: General Assessments
 │       └── Ad 1: Feature-Benefit Bridge
 │
-└── Campaign 4: META_Retargeting_AllServices_FreeConsult
+├── Campaign 4: META_Leads_Family-Therapy_FreeConsult
+│   ├── Ad Set 1: Family Conflict & Communication
+│   │   ├── Ad 1: PAS - Family Tension
+│   │   └── Ad 2: BAB - Family Reconnection
+│   └── Ad Set 2: Parenting & Teen Issues
+│       ├── Ad 1: PAS - Parent-Teen Disconnect
+│       └── Ad 2: Social Proof Lead
+│
+└── Campaign 5: META_Retargeting_AllServices_FreeConsult
     ├── Ad Set 1: Website Visitors (7-30 days)
     │   ├── Ad 1: Testimonial
     │   └── Ad 2: Insurance Reminder
@@ -100,6 +108,14 @@ META_[Objective]_[Audience]_[Offer]_[Date]
 - **Age:** 28-50
 - **Parental Status:** Parents with children ages 3-17
 - **Interests:** ADHD, child psychology, parenting, special education, learning disabilities
+- **Exclusions:** Existing patients, recent converters
+
+### Ad Set: Family Therapy
+- **Location:** 25-mile radius around Bloomfield Hills, MI
+- **Age:** 28-55
+- **Parental Status:** Parents with children ages 5-18
+- **Interests:** Family counseling, family therapy, parenting advice, teen mental health, family conflict resolution, child behavior
+- **Behaviors:** Engaged shoppers
 - **Exclusions:** Existing patients, recent converters
 
 ### Ad Set: Telehealth (Michigan-wide)
@@ -343,9 +359,95 @@ Insurance accepted. Free 15-minute consultation to discuss your needs.
 
 ---
 
-## Campaign 4: Retargeting Ads
+## Campaign 4: Family Therapy Ads
 
-### Ad 4.1 — Website Visitor Retargeting (Testimonial)
+### Ad 4.1 — Family Tension (Problem-Agitate-Solve)
+
+**Primary Text:**
+Dinnertime used to be your favorite part of the day. Now it's silent forks on plates — or someone storms off before the meal is over.
+
+The tension at home is affecting everyone. The kids are acting out. You and your partner are snapping at each other. It feels like your family is unraveling — and you don't know how to pull it back together.
+
+Family therapy isn't about blame. It's about giving every voice in your home a safe place to be heard.
+
+At Tranquil Awakenings Counseling Center in Bloomfield Hills, our therapists work with the whole family to rebuild trust, improve communication, and restore the peace your home deserves.
+
+Free 15-minute consultation. Insurance accepted.
+
+**Headline:** Restore Peace at Home — Free Consultation
+
+**Description:** Family therapy in Bloomfield Hills, MI. Insurance accepted.
+
+**CTA Button:** Book Now
+
+---
+
+### Ad 4.2 — Family Reconnection (Before-After-Bridge)
+
+**Primary Text:**
+Before: Conversations turn into arguments. Everyone retreats to their own room. Your family feels more like roommates than a unit. You miss the closeness you used to have.
+
+After: You're laughing together again. Disagreements happen — but they don't destroy the whole evening. Your kids feel heard. You feel like a team again.
+
+The bridge? A therapist who helps your family communicate without the walls going up.
+
+Tranquil Awakenings offers family therapy that meets your family where you are — in Bloomfield Hills or via telehealth across Michigan.
+
+Free 15-minute consultation. Most major insurances accepted.
+
+**Headline:** Bring Your Family Back Together
+
+**Description:** Compassionate family therapy. Free consultation available.
+
+**CTA Button:** Book Now
+
+---
+
+### Ad 4.3 — Parent-Teen Disconnect (Problem-Agitate-Solve)
+
+**Primary Text:**
+Your teenager used to talk to you. Now you get one-word answers, slammed doors, and the feeling that you're losing them.
+
+You've tried everything — being patient, being firm, giving space, stepping in. Nothing works. The disconnect is growing and it's keeping you up at night.
+
+You're not failing as a parent. But you might need a new way to reach them.
+
+Family therapy at Tranquil Awakenings helps parents and teens break through the walls, rebuild trust, and learn to communicate in ways that actually work.
+
+We accept Aetna, BCBS, Blue Care Network, Priority Health, and United Healthcare.
+
+Book your free 15-minute consultation.
+
+**Headline:** Reconnect With Your Teen
+
+**Description:** Family therapy for parents and teens. Bloomfield Hills, MI.
+
+**CTA Button:** Book Now
+
+---
+
+### Ad 4.4 — Social Proof Lead (Family)
+
+**Primary Text:**
+"The clinicians here really care about people. Rare these days in the health care industry. Couldn't be happier with my experience — and my family is too."
+
+When one person in the family is struggling, everyone feels it. Family therapy gives your entire household the tools to support each other — not just survive under the same roof.
+
+Tranquil Awakenings Counseling Center offers family therapy in Bloomfield Hills, serving Troy, Birmingham, Rochester Hills, Southfield, Farmington Hills, and all of Michigan via telehealth.
+
+Free 15-minute consultation. No pressure. Just a conversation.
+
+**Headline:** Your Family Deserves Support
+
+**Description:** Family therapy with therapists who care. Free consultation.
+
+**CTA Button:** Book Now
+
+---
+
+## Campaign 5: Retargeting Ads
+
+### Ad 5.1 — Website Visitor Retargeting (Testimonial)
 
 **Primary Text:**
 "Without going into details of my mental health, the people here do their jobs and do them right. I am so grateful for these people — and my family is too."
@@ -364,7 +466,7 @@ Book yours today.
 
 ---
 
-### Ad 4.2 — Insurance Reminder (Retargeting)
+### Ad 5.2 — Insurance Reminder (Retargeting)
 
 **Primary Text:**
 Therapy may cost less than you think.
@@ -388,7 +490,7 @@ Not sure what your insurance covers? Start with a free 15-minute consultation an
 
 ---
 
-### Ad 4.3 — Warm Audience Consultation Nudge
+### Ad 5.3 — Warm Audience Consultation Nudge
 
 **Primary Text:**
 Still thinking about it?
@@ -424,7 +526,12 @@ Tranquil Awakenings Counseling Center — Bloomfield Hills and telehealth across
 **Bottom Text:** ADHD & psychological testing
 **CTA Swipe-Up:** Schedule a Free Consultation
 
-### Story Ad 4 — Testimonial
+### Story Ad 4 — Quick Hook (Family Therapy)
+**Text Overlay:** "Your family is worth fighting for."
+**Bottom Text:** Family therapy in Bloomfield Hills
+**CTA Swipe-Up:** Book Your Free Consultation
+
+### Story Ad 5 — Testimonial
 **Text Overlay:** "You can feel the care and safeness."
 **Bottom Text:** — Tranquil Awakenings Client
 **CTA Swipe-Up:** Book Your Free Consultation
@@ -459,8 +566,9 @@ Tranquil Awakenings Counseling Center — Bloomfield Hills and telehealth across
 ### Testing Phase (First 2-4 weeks)
 | Campaign | % of Budget | Rationale |
 |----------|-------------|-----------|
-| Individual Therapy | 50% | Broadest audience, highest volume |
-| Couples Therapy | 25% | Strong demand, high-value service |
+| Individual Therapy | 40% | Broadest audience, highest volume |
+| Couples Therapy | 20% | Strong demand, high-value service |
+| Family Therapy | 15% | High lifetime value, multi-session service |
 | Psychological Testing | 15% | Niche but high intent |
 | Retargeting | 10% | Re-engage warm traffic |
 
